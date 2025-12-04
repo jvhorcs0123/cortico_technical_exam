@@ -40,11 +40,6 @@ class DemoPage {
       heardAboutUs: [
         '#heardAboutUs',
       ],
-      message: [
-        'textarea[name*="message"]',
-        'textarea[placeholder*="Message"]',
-        'textarea[id*="message"]',
-      ],
     }
     const selectors = map[field] || []
     return this.findExisting(selectors)
