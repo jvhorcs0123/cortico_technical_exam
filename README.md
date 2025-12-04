@@ -35,7 +35,7 @@
 - Success page: asserts path matches `/thank-you` (allowing trailing segments) and thank-you message
 
 ## Limitations & Improvements
-- Captcha and backend variability are bypassed via intercept; consider env-flag to toggle real requests
+- To keep tests reliable, we pretend to send the form to the server instead of actually doing it. If needed, we can switch to use the real server.
 - Error message bubbles from native HTML5 validation are not in the DOM; tests read `validationMessage` instead of `cy.contains`
 - Selectors rely on stable ids provided (`#clinicName`, `#numberOfProviders`, `#fullName`, `#clinicSoftware`, `#email`, `#mobilePhone`, `#heardAboutUs`); if these change, update `cypress/pages/demoPage.js:getField`
 
