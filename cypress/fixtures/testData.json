@@ -1,0 +1,16 @@
+{
+  "valid": {
+    "fullName": "Juan Dela Cruz",
+    "clinicName": "Test Clinic A",
+    "numberOfProviders": "5",
+    "email": "tester.applicant@example.com",
+    "phone": "1234567890",
+    "clinicSoftware": "OscarPro",
+    "heardAboutUs": "Ad"
+  },
+  "invalid": {
+    "email": "invalid-email",
+    "longString": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "specialChars": "~!@#$%^&*()_+{}|:\"<>?-=[];',./"
+  }
+}
